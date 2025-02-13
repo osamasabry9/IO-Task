@@ -1,12 +1,14 @@
-export interface Todo {
+ interface Todo {
   id: number;
   title: string;
   body: string;
   userId: number;
 }
 
-export interface CreateTodoInput {
+ interface CreateTodoInput {
   title: string;
   body: string;
   userId: number;
 }
+
+ export { type Todo, type CreateTodoInput}

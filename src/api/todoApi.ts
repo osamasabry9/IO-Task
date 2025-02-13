@@ -1,7 +1,8 @@
-import axios from 'axios';
-import { CreateTodoInput, Todo } from '../types/todo';
+import axios from "axios";
+import { CreateTodoInput, Todo } from "../types";
 
-const API_BASE_URL = 'https://jsonplaceholder.typicode.com';
+
+const API_BASE_URL = "https://jsonplaceholder.typicode.com";
 
 export const todoApi = {
   getTodos: async (): Promise<Todo[]> => {
