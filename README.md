@@ -40,7 +40,7 @@ It showcases **CRUD operations**, **sorting**, **pagination**, and leverages **R
 ├── 📜 main.tsx         # Application entry point
 ├── 📜 index.css        # Main stylesheet
 └── 📜 vite-env.d.ts    # Vite type declarations
----
+```
 
 ---
 
@@ -112,5 +112,6 @@ Feel free to use and modify the code as you see fit.
 
 ### 🙌 Thank You!
 
-Thank you for checking out this Todo App. If you have any questions or suggestions, feel free to open an issue or submit a pull request. Enjoy building! 
+```
+Thank you for checking out this Todo App. If you have any questions or suggestions, open an issue or submit a pull request. Enjoy building! 
 ```
