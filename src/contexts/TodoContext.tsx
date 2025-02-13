@@ -5,8 +5,8 @@ import {
   ReactNode,
   useMemo,
 } from "react";
-import { Todo } from "../types/todo.type";
-import { TodoAction, TodoActionType } from "../types";
+
+import { Todo, TodoAction, TodoActionType } from "../types";
 
 // Type definitions for more explicit intent
 interface TodoState {

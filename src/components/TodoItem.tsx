@@ -1,7 +1,7 @@
 import { memo } from "react";
 import { motion } from "framer-motion";
 import { Pencil, Trash2, Save, X } from "lucide-react";
-import { Todo } from "../types/todo";
+import { Todo } from "../types";
 import { useEditTodo } from "../hooks/useEditTodo";
 
 // Animation variants for the todo item container.
